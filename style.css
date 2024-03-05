@@ -1,0 +1,63 @@
+#box {
+    border: solid black 1px;
+    width: 90%; /* More responsive */
+    max-width: 500px; /* Ensures it doesn't get too wide on larger screens */
+    min-height: 300px; /* Gives more space for content */
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow for more depth */
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    align-items: center; /* Centers items horizontally */
+}
+
+h3 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px; /* Adds some space below the heading */
+}
+
+#emoji-box {
+    font-size: 48px; /* Larger emoji display */
+    margin-bottom: 20px; /* Adds some space below the emoji */
+}
+
+.input-box, .button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0; /* Adds space above and below */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-box {
+    border: 1px solid #ccc;
+    text-align: center; /* Centers the text inside the input */
+}
+
+.button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for the hover effect */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+#result, #timer {
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    margin: 10px 0; /* Consistent spacing around result and timer */
+}
+
+#result-text {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #007bff; /* Gives a hint of color to the result text */
+}
